@@ -1,6 +1,89 @@
+* {
+  /* outline: 1px dashed black; */
+}
+
 body {
+  --dark-magenta: hsl(300, 43%, 22%);
+  --dark-grayish-magenta: hsl(303, 10%, 40%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --soft-pink: hsl(333, 80%, 67%);
   font-family: 'League Spartan', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 15px;
   font-style: normal;
+  text-align: center;
+  padding: 64px 16px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section.intro {
+  font-size: 1rem;
+  line-height: 1.1;
+  color: var(--dark-grayish-magenta);
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 0.8;
+  color: var(--dark-magenta);
+  padding: 0rem 0.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+}
+
+.star-reviewer {
+  margin-bottom: 1rem;
+  color: var(--dark-magenta);
+  background-color: var(--light-grayish-magenta);
+  border-radius: 5px;
+  padding: 0.5rem 0rem;
+}
+
+.star-reviews img {
+  display: inline;
+  width: 0.9rem;
+  margin: 0.2rem;
+  vertical-align: middle;
+}
+
+section.reviews {
+  margin-bottom: 0rem;
+}
+
+.review {
+  text-align: initial;
+  margin-bottom: 1rem;
+  padding: 1.5rem 1.25rem;
+  background-color: var(--dark-magenta);
+  color: var(--light-grayish-magenta);
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.reviewer-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.reviewer-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-info img {
+  border-radius: 50%;
+  height: 2.5rem;
+  display: inline;
+}
+
+.review .buyer-status {
+  font-size: 0.9rem;
+  color: var(--soft-pink);
 }
