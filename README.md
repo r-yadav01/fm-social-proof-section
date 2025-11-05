@@ -1,6 +1,6 @@
 # Frontend Mentor - Social proof section solution
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Completed it using css, html only.
 
 ## Table of contents
 
@@ -12,11 +12,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screenshot-desktop.jpg)
-![](./assets/images/screenshot-mobile.jpg)
+![](./assets/images/screenshot-desktop.png)
+![](./assets/images/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [hosted on github](https://github.com/r-yadav01/)
-- Live Site URL: [click here](https://r-yadav01.github.io/)
+- Solution URL: [hosted on github](https://github.com/r-yadav01/fm-social-proof-section)
+- Live Site URL: [click here](https://r-yadav01.github.io/fm-social-proof-section)
 
 ## My process
 
@@ -42,23 +38,21 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- CSS Flexbox
 - CSS Grid
+- CSS position layout
 - Mobile-first workflow
 
 ### What I learned
 
+- Nothing new, easy project. I faced some difficulty guessing the right size for different things like spacing, font-size.
+
 ### Continued development
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- From this project I realized that I have to learn about how z-index works.
 
 ## Author
 
 - Frontend Mentor - [@r-yadav01](https://www.frontendmentor.io/profile/r-yadav01)
 - Twitter - [@r_yadav01](https://x.com/r_yadav01)
 - GitHub - [r-yadav01](https://github.com/r-yadav01)
-
-## Acknowledgments

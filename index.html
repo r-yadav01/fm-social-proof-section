@@ -22,96 +22,110 @@
     <title>Social proof section</title>
   </head>
   <body>
-    <img
-      class="bg-pattern top-mobile"
-      src="./assets/images/bg-pattern-top-mobile.svg"
-      alt="bg-pattern-top-mobile"
-    />
-    <img
-      class="bg-pattern bottom-mobile"
-      src="assets/images/bg-pattern-bottom-mobile.svg"
-      alt="bg-pattern-bottom-mobile"
-    />
-    <section class="intro">
-      <h1>10,000+ of our users love our products.</h1>
-      <div>
-        We only provide great products combined with excellent customer service.
-        See what our satisfied customers are saying about our services.
-      </div>
-    </section>
+    <div class="bg-images">
+      <picture>
+        <source
+          srcset="assets/images/bg-pattern-top-desktop.svg"
+          media="(min-width: 500px)"
+        />
+        <img
+          class="bg-pattern top"
+          src="assets/images/bg-pattern-top-mobile.svg"
+          alt="bg-pattern-top-mobile"
+        />
+      </picture>
 
-    <section class="star-reviews">
-      <div class="star-reviewer">
-        <div class="stars">
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
+      <picture>
+        <source
+          srcset="assets/images/bg-pattern-bottom-desktop.svg"
+          media="(min-width: 500px)"
+        />
+        <img
+          class="bg-pattern bottom"
+          src="assets/images/bg-pattern-bottom-mobile.svg"
+          alt="bg-pattern-bottom-mobile"
+        />
+      </picture>
+    </div>
+    <main class="max-width-wrapper">
+      <section class="intro">
+        <h1>10,000+ of our users love our products.</h1>
+        <div>
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers are saying about our
+          services.
         </div>
-        <b>Rated 5 Stars in Reviews</b>
-      </div>
-      <div class="star-reviewer">
-        <div class="stars">
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-        </div>
-        <b>Rated 5 Stars in Report Guru</b>
-      </div>
-      <div class="star-reviewer">
-        <div class="stars">
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-          <img src="assets/images/icon-star.svg" alt="star-icon" />
-        </div>
-        <b>Rated 5 Stars in BestTech</b>
-      </div>
-    </section>
-
-    <section class="reviews">
-      <div class="review">
-        <div class="reviewer-info">
-          <img src="./assets/images/image-colton.jpg" alt="reviewer-image" />
-          <div>
-            <b class="reviewer-name">Colton Smith</b>
-            <span class="buyer-status">Verified Buyer</span>
+      </section>
+      <section class="star-reviews">
+        <div class="star-reviewer one">
+          <div class="stars">
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
           </div>
+          <b>Rated 5 Stars in Reviews</b>
         </div>
-        "We needed the same printed design as the one we had ordered a week
-        prior. Not only did they find the original order, but we also received
-        it in time. Excellent!"
-      </div>
-
-      <div class="review">
-        <div class="reviewer-info">
-          <img src="./assets/images/image-irene.jpg" alt="reviewer-image" />
-          <div>
-            <b class="reviewer-name">Irene Roberts</b>
-            <span class="buyer-status">Verified Buyer</span>
+        <div class="star-reviewer two">
+          <div class="stars">
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
           </div>
+          <b>Rated 5 Stars in Report Guru</b>
         </div>
-        "Customer service is always excellent and very quick turn around.
-        Completely delighted with the simplicity of the purchase and the speed
-        of delivery."
-      </div>
-
-      <div class="review">
-        <div class="reviewer-info">
-          <img src="./assets/images/image-anne.jpg" alt="reviewer-image" />
-          <div>
-            <b class="reviewer-name">Anne Wallace</b>
-            <span class="buyer-status">Verified Buyer</span>
+        <div class="star-reviewer three">
+          <div class="stars">
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
+            <img src="assets/images/icon-star.svg" alt="star-icon" />
           </div>
+          <b>Rated 5 Stars in BestTech</b>
         </div>
-        "Put an order with this company and can only praise them for the very
-        high standard. Will definitely use them again and recommend them to
-        everyone!"
-      </div>
-    </section>
+      </section>
+      <section class="reviews">
+        <div class="review one">
+          <div class="reviewer-info">
+            <img src="./assets/images/image-colton.jpg" alt="reviewer-image" />
+            <div>
+              <b class="reviewer-name">Colton Smith</b>
+              <span class="buyer-status">Verified Buyer</span>
+            </div>
+          </div>
+          "We needed the same printed design as the one we had ordered a week
+          prior. Not only did they find the original order, but we also received
+          it in time. Excellent!"
+        </div>
+        <div class="review two">
+          <div class="reviewer-info">
+            <img src="./assets/images/image-irene.jpg" alt="reviewer-image" />
+            <div>
+              <b class="reviewer-name">Irene Roberts</b>
+              <span class="buyer-status">Verified Buyer</span>
+            </div>
+          </div>
+          "Customer service is always excellent and very quick turn around.
+          Completely delighted with the simplicity of the purchase and the speed
+          of delivery."
+        </div>
+        <div class="review three">
+          <div class="reviewer-info">
+            <img src="./assets/images/image-anne.jpg" alt="reviewer-image" />
+            <div>
+              <b class="reviewer-name">Anne Wallace</b>
+              <span class="buyer-status">Verified Buyer</span>
+            </div>
+          </div>
+          "Put an order with this company and can only praise them for the very
+          high standard. Will definitely use them again and recommend them to
+          everyone!"
+        </div>
+      </section>
+    </main>
   </body>
 </html>
