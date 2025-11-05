@@ -119,7 +119,7 @@ h1 {
   .max-width-wrapper {
     margin: auto;
     padding: 64px;
-    max-width: 1300px;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -144,6 +144,7 @@ h1 {
     grid-column: 2;
     grid-row: 1;
     width: fit-content;
+    margin-left: auto;
   }
 
   .star-reviewer {
@@ -154,12 +155,12 @@ h1 {
 
   .star-reviewer.one {
     position: relative;
-    left: -2rem;
+    left: -4rem;
   }
 
-  .star-reviewer.three {
+  .star-reviewer.two {
     position: relative;
-    left: 2rem;
+    left: -2rem;
   }
 
   .stars {
