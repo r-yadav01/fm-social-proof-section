@@ -18,7 +18,7 @@ body {
   margin-right: auto;
   padding: 48px 32px;
   text-align: center;
-  max-width: 500px;
+  max-width: 450px;
   background-color: inherit;
 }
 
@@ -56,11 +56,12 @@ h1 {
 }
 
 .star-reviewer {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   color: var(--dark-magenta);
   background-color: var(--light-grayish-magenta);
   border-radius: 5px;
   padding: 0.5rem 0rem;
+  box-shadow: 2px 4px 4px hsl(0deg, 0%, 90%);
 }
 
 .star-reviews img {
@@ -71,18 +72,19 @@ h1 {
   vertical-align: middle;
 }
 
-section.reviews {
+.reviews {
   margin-bottom: 0rem;
 }
 
 .review {
   text-align: initial;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   padding: 1.5rem 1.25rem;
   background-color: var(--dark-magenta);
   color: var(--light-grayish-magenta);
   border-radius: 8px;
   font-weight: 500;
+  box-shadow: 3px 6px 6px hsl(0deg, 0%, 85%);
 }
 
 .reviewer-info {
