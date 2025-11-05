@@ -16,6 +16,21 @@ body {
   padding: 64px 16px;
 }
 
+.bg-pattern {
+  position: absolute;
+  z-index: -1;
+}
+
+.top-mobile {
+  top: 0px;
+  left: 0px;
+}
+
+.bottom-mobile {
+  bottom: 0px;
+  right: 0px;
+}
+
 section {
   margin-bottom: 2rem;
 }
