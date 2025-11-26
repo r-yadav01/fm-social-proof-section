@@ -87,6 +87,11 @@ h1 {
   box-shadow: 3px 6px 6px hsl(0deg, 0%, 85%);
 }
 
+.review > p::before,
+.review > p::after {
+  content: '"';
+}
+
 .reviewer-info {
   display: flex;
   gap: 1rem;
